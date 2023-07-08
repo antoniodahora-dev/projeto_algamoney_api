@@ -1,0 +1,25 @@
+package com.example.algamoneyapi.dto;
+
+
+//classe criada para fornecer os atributos do Anexo
+public class Anexo {
+	
+	private String nome;
+	
+	private String url;
+
+	public Anexo(String nome, String url) {
+		this.nome = nome;
+		this.url = url;
+	}
+	
+	public String getNome() {
+		return nome;
+	}
+	
+	public String getUrl() {
+		return url;
+	}
+	
+
+}
